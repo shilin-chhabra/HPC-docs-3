@@ -45,7 +45,7 @@ Your token will be displayed and this is the only time you can view it without r
 
 ### Requesting a Runner Scale Set
 
-Administrator assistance is required to connect GitHub Runner scale sets on CIRRUS once your PAT has been added to OpenBao. More details can be found at this [link on creating tickets](../../create-tickets). Below is an example ticket description to add a new GitHub Runner scale set to a repository.
+Administrator assistance is required to connect GitHub Runner scale sets on CIRRUS once your PAT has been added to OpenBao. More details can be found at this **[TODO: Add link to creating tickets]**. Below is an example ticket description to add a new GitHub Runner scale set to a repository.
 
 ```
 Hello,
