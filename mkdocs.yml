@@ -93,29 +93,30 @@ nav:
       - Using Remote Desktops: compute-systems/casper/remote-desktops.md
       - Casper Software: compute-systems/casper/casper-modules.md
     - CIRRUS:
-      - compute-systems/cirrus/guides/intro/index.md
-      - Introduction: compute-systems/cirrus/guides/intro/index.md
+      - compute-systems/cirrus/guides/01-intro/index.md
+      - Introduction: compute-systems/cirrus/guides/01-intro/index.md
       - Interact with CIRRUS team:
-            - compute-systems/cirrus/guides/interact-with-cirrus-team/agile.md
-            - compute-systems/cirrus/guides/interact-with-cirrus-team/create-tickets.md
+            - compute-systems/cirrus/guides/02-interact-with-cirrus-team/agile.md
+            - compute-systems/cirrus/guides/02-interact-with-cirrus-team/create-tickets.md
       - Deploying Applications: 
-            - compute-systems/cirrus/guides/deploying-applications/containerize.md
-            - compute-systems/cirrus/guides/deploying-applications/additions.md
+            - compute-systems/cirrus/guides/03-deploying-applications/containerize.md
+            - compute-systems/cirrus/guides/03-deploying-applications/additions.md
       - Container Registry: 
-        - compute-systems/cirrus/guides/container-registry/index.md
-        - Image Management: compute-systems/cirrus/guides/container-registry/image-mgmt.md
-        - Vulnerability Scanner: compute-systems/cirrus/guides/container-registry/vulnerability-scan.md
+        - compute-systems/cirrus/guides/04-container-registry/index.md
+        - Image Management: compute-systems/cirrus/guides/04-container-registry/image-mgmt.md
+        - Vulnerability Scanner: compute-systems/cirrus/guides/04-container-registry/vulnerability-scan.md
       - GitHub Actions:
-        - compute-systems/cirrus/guides/github-actions/best-practices.md
-        - compute-systems/cirrus/guides/github-actions/scale-sets.md
+        - compute-systems/cirrus/guides/05-github-actions/best-practices.md
+        - compute-systems/cirrus/guides/05-github-actions/scale-sets.md
       - Jupyter on CIRRUS: 
-        - compute-systems/cirrus/guides/jupyter-on-cirrus/jupyterhub.md
-        - Conda Environments: compute-systems/cirrus/guides/jupyter-on-cirrus/conda-envs.md
-        - GPU Use: compute-systems/cirrus/guides/jupyter-on-cirrus/jhub-gpu.md
-        - Dask: compute-systems/cirrus/guides/jupyter-on-cirrus/jhub-dask.md
-        - Binder: compute-systems/cirrus/guides/jupyter-on-cirrus/binderhub.md
-      - Secret Manager: compute-systems/cirrus/guides/secret-manager/openbao.md
-      - Service Level Agreements: compute-systems/cirrus/guides/service-level-agreements/slas.md
+        - compute-systems/cirrus/guides/06-jupyter-on-cirrus/jupyterhub.md
+        - Conda Environments: compute-systems/cirrus/guides/06-jupyter-on-cirrus/conda-envs.md
+        - GPU Use: compute-systems/cirrus/guides/06-jupyter-on-cirrus/jhub-gpu.md
+        - Dask: compute-systems/cirrus/guides/06-jupyter-on-cirrus/jhub-dask.md
+        - Binder: compute-systems/cirrus/guides/06-jupyter-on-cirrus/binderhub.md
+      - Secret Manager: compute-systems/cirrus/guides/07-secret-manager/openbao.md
+      - Frequent Issues: compute-systems/cirrus/guides/08-frequent-issues/index.md
+      - Service Level Agreements: compute-systems/cirrus/guides/09-service-level-agreements/slas.md
     - JupyterHub:
       - compute-systems/jupyterhub/index.md
       - Jupyter and IPython: compute-systems/jupyter-and-ipython.md

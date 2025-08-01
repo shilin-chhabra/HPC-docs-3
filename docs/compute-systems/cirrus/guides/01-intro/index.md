@@ -79,6 +79,11 @@ Understand our service commitments and support levels.
 
 - **[slas](../08-service-level-agreements/slas.md)** - Support levels and response times. Use to understand service commitments.
 
+### **[Frequent Issues](../09-frequent-issues/)**
+Troubleshooting guide for common problems and solutions.
+
+- **[troubleshooting guide](../09-frequent-issues/index.md)** - Common problems and solutions. Use when encountering issues or errors.
+
 ---
 
 ## Platform Overview

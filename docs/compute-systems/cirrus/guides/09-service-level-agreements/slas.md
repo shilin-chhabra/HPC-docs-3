@@ -58,8 +58,6 @@ CIRRUS follows **Infrastructure as Code (IaC)** practices. All applications depl
 
 To request PV replication for your application, please [create a ticket](../02-interact-with-cirrus-team/create-tickets.md).
 
-For more information on this process, please see [create tickets](../02-interact-with-cirrus-team/create-tickets.md).
-
 ---
 
 ## Change Management
