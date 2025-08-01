@@ -13,7 +13,7 @@ The new image can then be used in the application definition stored in the code 
 
 Initial application setup on CIRRUS requires assistance from a CIRRUS administrator. You'll need to submit a request ticket.
 
-For more information on creating requests, see **[TODO: Add link to creating tickets]**.
+For more information on creating requests, see [create tickets](../02-interact-with-cirrus-team/create-tickets.md).
 
 A typical request might look like:
 
@@ -33,7 +33,7 @@ Thank you
 !!! note
     All FQDNs/URLs must reside within the `*.k8s.ucar.edu` domain. You may choose whether your application is accessible only within UCAR's internal network and VPN or is made publicly accessible on the internet.
     
-    If you need assistance determining which option is appropriate for your project, please **[TODO: Add link to submit a request]**.
+    If you need assistance determining which option is appropriate for your project, please [submit a request](../02-interact-with-cirrus-team/create-tickets.md).
 
 ---
 
@@ -67,7 +67,7 @@ k8s/
 
 These core Kubernetes manifests ensure your application can be properly deployed, accessed, and managed within the CIRRUS environment.
 
-If you already have a containerized version of your application and want to deploy it on CIRRUS, we recommend starting by **[TODO: Add link to submitting a ticket]**. A CIRRUS team member will assist in configuring and validating your deployment.
+If you already have a containerized version of your application and want to deploy it on CIRRUS, we recommend starting by [submit a ticket](../02-interact-with-cirrus-team/create-tickets.md). A CIRRUS team member will assist in configuring and validating your deployment.
 
 ### Unique Helm Values
 
@@ -77,7 +77,7 @@ The Helm templates in the CIRRUS Helm Examples repo include a `README.md` with d
 - **A Fully Qualified Domain Name (FQDN):** `<app-name>.k8s.ucar.edu`
   - Typically your application's name followed by `.k8s.ucar.edu`
 - **Application URL Path:** For simple apps this is usually `/` but an API for example could use `/api/v1/`
-- **Container image to use:** Can be a public image or one stored in the **[TODO: Add link to Harbor internal registry]**
+- **Container image to use:** Can be a public image or one stored in the [Harbor internal registry](../04-container-registry/index.md)
 - **Container port to expose:** The internal port your app listens on (e.g., 5000 for a Flask app on `http://localhost:5000`)
 
 ---
@@ -100,7 +100,7 @@ CIRRUS uses **[Ceph](https://docs.ceph.com/en/reef/)**, a distributed storage sy
 - **Ceph FS** - ReadWriteMany: multiple pods can access the volume simultaneously
 
 !!! note
-    Use the **[TODO: Add link to CIRRUS Helm Examples]** repo for up-to-date storage class names.
+    Use the [CIRRUS Helm Examples](https://github.com/NCAR/cirrus-helm-examples) repo for up-to-date storage class names.
 
 ---
 

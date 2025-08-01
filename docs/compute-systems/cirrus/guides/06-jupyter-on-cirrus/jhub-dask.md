@@ -108,6 +108,6 @@ cluster = PBSCluster(
 client = Client(cluster)
 ```
 
-Full documentation is available in the **[TODO: Add link to dask-jobqueue docs]**.
+Full documentation is available in the **[dask-jobqueue docs](https://jobqueue.dask.org/en/latest/)**.
 
-For a walkthrough, see Part 2 of the "Using Dask on HPC Systems" video on the **[TODO: Add link to CISL YouTube channel]**.
+For a walkthrough, see Part 2 of the "Using Dask on HPC Systems" video on the **[CISL YouTube channel](https://www.youtube.com/watch?v=E4utSzWgJEo)**.

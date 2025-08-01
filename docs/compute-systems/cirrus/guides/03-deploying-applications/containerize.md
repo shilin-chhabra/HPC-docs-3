@@ -17,7 +17,7 @@ For most basic applications, you only need to:
 - Build the image
 
 !!! note
-    The code used in this guide is available **[TODO: Add link to GitHub repository]**.
+    The code used in this guide is available at **[docker-how-to repository](https://github.com/NicholasCote/docker-how-to.git)**.
 
 ---
 
@@ -95,7 +95,7 @@ Think of the Dockerfile as a scripted recipe to install and run your application
 With a complete container assembly document, in this example a Dockerfile, it's time to actually build the image.
 
 !!! info
-    The following assumes that you have installed a Docker Engine and it's up running. If you do not have Docker installed please follow the documentation **[TODO: Add link to Docker installation docs]** for your OS.
+    The following assumes that you have installed a Docker Engine and it's up running. If you do not have Docker installed please follow the **[Docker installation documentation](https://docs.docker.com/engine/install/)** for your OS.
 
 The command used for building a docker image is:
 

@@ -36,10 +36,9 @@ Available environments include:
 - **A Custom Environment option** that supports:
   - Launching popular scientific computing images
   - Providing your own image to launch
-  - Building and launching an image from a Git repository (via **Binder**)  
-    **[TODO: Add definition/explanation of Binder here - hover tooltip or expandable section]**
+  - Building and launching an image from a Git repository (via **Binder** - a tool that creates reproducible computing environments from code repositories)
 
-For more information on using Binder, see [CIRRUS Binder](binderhub.md).
+For more information on using Binder, see [binder](binderhub.md).
 
 <img src="../../../media/jupyter/server-opts.png"/>
 

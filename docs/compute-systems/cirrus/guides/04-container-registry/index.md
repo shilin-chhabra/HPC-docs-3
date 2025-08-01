@@ -1,6 +1,6 @@
 # Container Registry (Harbor)
 
-CIRRUS uses **[TODO: Add link to Harbor]**, an open-source container registry, to store, manage, and distribute container images efficiently within the platform.
+CIRRUS uses **[Harbor](https://goharbor.io/)**, an open-source container registry, to store, manage, and distribute container images efficiently within the platform.
 
 ---
 
@@ -37,7 +37,7 @@ If you need to:
 - Create a private project, or
 - Push images to Harbor,
 
-Please submit a **[TODO: Add link to Jira request]**. Be sure to include:
+Please submit a **[Jira request](https://jira.ucar.edu/secure/CreateIssueDetails!init.jspa?pid=18470&issuetype=10903&summary=User%20Request:)**. Be sure to include:
 
 - A descriptive name for the project
 - A brief description of your intended use

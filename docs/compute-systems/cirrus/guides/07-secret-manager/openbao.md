@@ -64,12 +64,12 @@ In order to use secrets stored in OpenBao as environment variables within CIRRUS
 
 3. The ExternalSecret can then be referenced inside your Kubernetes Deployment using `valueFrom`.
 
-When submitting a request to host a new application (see **[TODO: Add link to Adding Applications]**), please include:
+When submitting a request to host a new application (see [adding applications](../03-deploying-applications/additions.md)), please include:
 
 - The names of the secrets you want to use
 - The path and properties from OpenBao
 
-For updating an existing app with secrets, please **[TODO: Add link to create a ticket]** with the necessary details.
+For updating an existing app with secrets, please [create a ticket](../02-interact-with-cirrus-team/create-tickets.md) with the necessary details.
 
 ---
 
@@ -97,4 +97,4 @@ spec:
            property: my-secret-key
 ```
 
-For an example Helm chart that uses ExternalSecrets, see **[TODO: Add link to external-secret-helm]**.
+For an example Helm chart that uses ExternalSecrets, see [external-secret-helm](https://github.com/NCAR/cirrus-helm-examples/tree/main/external-secret-helm).

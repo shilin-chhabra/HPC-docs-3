@@ -12,7 +12,7 @@ We currently provide Jupyter images with support for both **PyTorch** and **Tens
 
 To allow multiple users to share GPU resources efficiently, we utilize **NVIDIA time slicing**. This feature enables time-based sharing of GPU resources between users.
 
-**[TODO: Add link to NVIDIA time slicing documentation]**
+Read more in the [NVIDIA time slicing documentation](https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/latest/gpu-sharing.html)
 
 ### How time slicing works:
 
@@ -28,7 +28,7 @@ You can download or drag-and-drop the example notebooks into your JupyterHub ses
 
 Use the **`cirrus-pytorch-base`** Python kernel, included with the PyTorch GPU image, to run the notebooks without any additional setup.
 
-**[TODO: Add link to PyTorch environment's package list on GitHub]**
+View the [PyTorch environment's package list on GitHub](https://github.com/NCAR/cirrus-jhub-images/blob/main/images/gpu-pyt-notebook/packages/cirrus-pytorch-base.yml)
 
 ## TensorFlow Tutorial
 
@@ -36,4 +36,4 @@ The [TensorFlow website](https://www.tensorflow.org/tutorials) offers a series o
 
 These can also be uploaded directly to JupyterHub and executed using the **`cirrus-tensorflow-base`** Python kernel, which comes preloaded with required packages.
 
-**[TODO: Add link to TensorFlow environment's package list on GitHub]**
+View the [TensorFlow environment's package list on GitHub](https://github.com/NCAR/cirrus-jhub-images/blob/main/images/gpu-tf-notebook/packages/cirrus-tensorflow-base.yml)

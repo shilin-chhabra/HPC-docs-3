@@ -56,15 +56,15 @@ CIRRUS follows **Infrastructure as Code (IaC)** practices. All applications depl
 
 [Persistent Volumes (PVs)](../03-deploying-applications/additions.md#persistent-volumes) in CIRRUS can be replicated across sites to improve resiliency.
 
-To request PV replication for your application, please **[TODO: Add link to create ticket]**.
+To request PV replication for your application, please [create a ticket](../02-interact-with-cirrus-team/create-tickets.md).
 
-For more information on this process, please see [Create Tickets](../02-interact-with-cirrus-team/create-tickets.md).
+For more information on this process, please see [create tickets](../02-interact-with-cirrus-team/create-tickets.md).
 
 ---
 
 ## Change Management
 
-All changes must be submitted via a Jira ticket. For more information on this process, please see [Create Tickets](../02-interact-with-cirrus-team/create-tickets.md).
+All changes must be submitted via a Jira ticket. For more information on this process, please see [create tickets](../02-interact-with-cirrus-team/create-tickets.md).
 
 Tickets are reviewed and prioritized by the CIRRUS Product Owner.
 

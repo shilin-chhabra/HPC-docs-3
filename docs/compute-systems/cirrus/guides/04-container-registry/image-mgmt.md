@@ -13,7 +13,7 @@ To log in:
 This login flow uses your UCAR credentials via Microsoft Azure for secure access.
 
 !!! note
-    To pull or push images, you'll need a container engine such as Docker, Podman, or Containerd. Docker is the most common choice. **[TODO: Add link to Install Docker Engine]** if you don't already have one.
+    To pull or push images, you'll need a container engine such as Docker, Podman, or Containerd. Docker is the most common choice. **[Install Docker Engine](https://docs.docker.com/engine/install/)** if you don't already have one.
 
 ---
 
@@ -69,13 +69,13 @@ docker image pull hub.k8s.ucar.edu/cirrus-jhub/cirrus-base:v1-stable
 !!! important
     Before you can push an image to Harbor, a project must first be created for you. At this time, only Harbor administrators can create new projects and assign user permissions.
     
-    To request a new project or to be added to an existing project with the appropriate role (Developer, Maintainer, or Project Admin), please **[TODO: Add link to open a request]**.
+    To request a new project or to be added to an existing project with the appropriate role (Developer, Maintainer, or Project Admin), please **[open a request](https://jira.ucar.edu/secure/CreateIssueDetails!init.jspa?pid=18470&issuetype=10905)**.
     
     You will not be able to push images until your access has been provisioned by an admin.
 
 Assuming you've already built a local image, follow the steps below to push to Harbor:
 
-**[TODO: Add link to containerization documentation]**
+*Information on how to create container images locally can be found in our [create containers](../03-deploying-applications/containerize.md)*
 
 ### Steps:
 
@@ -93,8 +93,6 @@ Assuming you've already built a local image, follow the steps below to push to H
 
 ### Command Syntax Reference
 
-**[TODO: Add definition/elaboration of exact syntax]**
-
 The exact syntax used in each of these commands as it relates to Harbor Projects and Repositories can be seen in the code block below:
 
 ```bash
@@ -105,7 +103,7 @@ docker push hub.k8s.ucar.edu/PROJECT/REPOSITORY[:TAG]
 !!! tip
     After pushing, your image will appear in the Harbor project. Harbor contains a vulnerability scanner that automatically scans your images for any known vulnerabilities and provides detailed reports on what it finds.
     
-    For more information on how to use the scanner, please see **[TODO: Add link to scanner documentation]**.
+    For more information on how to use the scanner, please see [vulnerability scanner](vulnerability-scan.md).
 
 !!! note
     If your project is public, it can be pulled by anyone on the network. This makes it easy to share reproducible builds with collaborators.

@@ -38,46 +38,46 @@ Platform overview, services, and hardware specs. Start here to understand CIRRUS
 ### **[Interact with CIRRUS Team](../02-interact-with-cirrus-team/)**
 Learn how to work with the CIRRUS team and get support.
 
-- **[Agile Methodology](../02-interact-with-cirrus-team/agile.md)** - How the team works and manages requests. Use this to understand our development process.
-- **[Create Tickets](../02-interact-with-cirrus-team/create-tickets.md)** - How to submit requests and report issues. Use when you need help or want to request services.
+- **[agile methodology](../02-interact-with-cirrus-team/agile.md)** - How the team works and manages requests. Use this to understand our development process.
+- **[create tickets](../02-interact-with-cirrus-team/create-tickets.md)** - How to submit requests and report issues. Use when you need help or want to request services.
 
 ### **[Deploying Applications](../03-deploying-applications/)**
 Everything you need to containerize and deploy applications on CIRRUS.
 
-- **[Creating Containers](../03-deploying-applications/containerize.md)** - Step-by-step containerization guide. Perfect if you're new to containers or Docker.
-- **[Adding Applications](../03-deploying-applications/additions.md)** - GitOps deployment with Helm charts. Use when you're ready to deploy your application.
+- **[create containers](../03-deploying-applications/containerize.md)** - Step-by-step containerization guide. Perfect if you're new to containers or Docker.
+- **[adding applications](../03-deploying-applications/additions.md)** - GitOps deployment with Helm charts. Use when you're ready to deploy your application.
 
 ### **[Container Registry](../04-container-registry/)**
 Store, manage, and secure your container images with Harbor.
 
-- **[Harbor Overview](../04-container-registry/index.md)** - Container registry introduction. Use to understand how to store and manage container images.
-- **[Image Management](../04-container-registry/image-mgmt.md)** - Push/pull images, CLI usage. Use when you need to work with container images.
-- **[Vulnerability Scanner](../04-container-registry/vulnerability-scan.md)** - Security scanning for images. Use to ensure image security.
+- **[harbor overview](../04-container-registry/index.md)** - Container registry introduction. Use to understand how to store and manage container images.
+- **[image management](../04-container-registry/image-mgmt.md)** - Push/pull images, CLI usage. Use when you need to work with container images.
+- **[vulnerability scanner](../04-container-registry/vulnerability-scan.md)** - Security scanning for images. Use to ensure image security.
 
 ### **[GitHub Actions](../05-github-actions/)**
 Automate your CI/CD workflows with GitHub Actions on CIRRUS.
 
-- **[Runner Scale Sets](../05-github-actions/scale-sets.md)** - Automated CI/CD setup. Use to automate builds and deployments.
-- **[Best Practices](../05-github-actions/best-practices.md)** - Security and operational guidelines. Use to secure your CI/CD pipelines.
+- **[runner scale sets](../05-github-actions/scale-sets.md)** - Automated CI/CD setup. Use to automate builds and deployments.
+- **[best practices](../05-github-actions/best-practices.md)** - Security and operational guidelines. Use to secure your CI/CD pipelines.
 
 ### **[Jupyter on CIRRUS](../06-jupyter-on-cirrus/)**
 Interactive computing, data analysis, and research environments.
 
-- **[JupyterHub](../06-jupyter-on-cirrus/jupyterhub.md)** - Interactive computing environment. Use for data analysis and research.
-- **[Conda Environments](../06-jupyter-on-cirrus/conda-envs.md)** - Custom Python environments. Use to manage dependencies.
-- **[GPU Usage](../06-jupyter-on-cirrus/jhub-gpu.md)** - GPU computing with PyTorch/TensorFlow. Use for machine learning and AI workloads.
-- **[Dask Integration](../06-jupyter-on-cirrus/jhub-dask.md)** - Distributed computing. Use to scale computations across nodes.
-- **[Binder](../06-jupyter-on-cirrus/binderhub.md)** - Reproducible research environments. Use to share interactive notebooks.
+- **[jupyterhub](../06-jupyter-on-cirrus/jupyterhub.md)** - Interactive computing environment. Use for data analysis and research.
+- **[conda environments](../06-jupyter-on-cirrus/conda-envs.md)** - Custom Python environments. Use to manage dependencies.
+- **[gpu usage](../06-jupyter-on-cirrus/jhub-gpu.md)** - GPU computing with PyTorch/TensorFlow. Use for machine learning and AI workloads.
+- **[dask integration](../06-jupyter-on-cirrus/jhub-dask.md)** - Distributed computing. Use to scale computations across nodes.
+- **[binder](../06-jupyter-on-cirrus/binderhub.md)** - Reproducible research environments. Use to share interactive notebooks.
 
 ### **[Secret Manager](../07-secret-manager/)**
 Securely store and manage sensitive data like API keys and credentials.
 
-- **[OpenBao](../07-secret-manager/openbao.md)** - Secure credential storage. Use to manage API keys and secrets.
+- **[openbao](../07-secret-manager/openbao.md)** - Secure credential storage. Use to manage API keys and secrets.
 
 ### **[Service Level Agreements](../08-service-level-agreements/)**
 Understand our service commitments and support levels.
 
-- **[SLAs](../08-service-level-agreements/slas.md)** - Support levels and response times. Use to understand service commitments.
+- **[slas](../08-service-level-agreements/slas.md)** - Support levels and response times. Use to understand service commitments.
 
 ---
 
@@ -116,7 +116,7 @@ CIRRUS uses **GitOps** for application deployment and management:
 3. **Version control** provides audit trails and rollback capabilities
 4. **Collaborative workflows** enable team-based development
 
-For deployment guidance, see [Adding Applications](../03-deploying-applications/additions.md).
+For deployment guidance, see [adding applications](../03-deploying-applications/additions.md).
 
 ### Container Registry (Harbor)
 
@@ -127,7 +127,7 @@ For deployment guidance, see [Adding Applications](../03-deploying-applications/
 - **Access control** manages who can push and pull images
 - **Web interface** available at https://hub.k8s.ucar.edu
 
-Learn more: [Container Registry](../04-container-registry/index.md)
+Learn more: [container registry](../04-container-registry/index.md)
 
 ### Secrets Management (OpenBao)
 
@@ -138,7 +138,7 @@ Learn more: [Container Registry](../04-container-registry/index.md)
 - **UCAR authentication** using CIT credentials
 - **Web interface** available at https://bao.k8s.ucar.edu
 
-Learn more: [Secret Manager](../07-secret-manager/openbao.md)
+Learn more: [secret manager](../07-secret-manager/openbao.md)
 
 ### GitHub Actions Integration
 
@@ -149,7 +149,7 @@ Learn more: [Secret Manager](../07-secret-manager/openbao.md)
 - **Direct integration** with CIRRUS services
 - **Container builds** using remote BuildKit
 
-Learn more: [GitHub Actions](../05-github-actions/scale-sets.md)
+Learn more: [github actions](../05-github-actions/scale-sets.md)
 
 ### JupyterHub Environment
 
@@ -160,7 +160,7 @@ Learn more: [GitHub Actions](../05-github-actions/scale-sets.md)
 - **Dask Gateway** for distributed computing workflows
 - **Custom environments** via Binder for reproducible research
 
-Learn more: [Jupyter on CIRRUS](../06-jupyter-on-cirrus/jupyterhub.md)
+Learn more: [jupyter on CIRRUS](../06-jupyter-on-cirrus/jupyterhub.md)
 
 ---
 
@@ -188,9 +188,9 @@ CIRRUS operates on **18 high-performance nodes** providing substantial computing
 
 Ready to deploy on CIRRUS? Here's your path forward:
 
-1. **Review** the [Service Level Agreements](../08-service-level-agreements/slas.md)
-2. **Containerize** your application using our [containerization guide](../03-deploying-applications/containerize.md)
-3. **Submit** a deployment request via our [team interaction process](../02-interact-with-cirrus-team/create-tickets.md)
+1. **Review** the [service level agreements](../08-service-level-agreements/slas.md)
+2. **Containerize** your application using our [create containers](../03-deploying-applications/containerize.md)
+3. **Submit** a deployment request via our [create tickets](../02-interact-with-cirrus-team/create-tickets.md)
 4. **Deploy** using our GitOps workflow with Helm charts
 
 Need help? The CIRRUS team is here to assist with onboarding, troubleshooting, and optimization.
