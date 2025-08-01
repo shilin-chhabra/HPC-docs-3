@@ -29,7 +29,7 @@ Kanban is a flexible Agile framework focused on **continuous delivery** and **vi
 - Work is broken down into small, trackable units called <span title="Short, simple description of a feature from the end-user perspective."><strong>User Stories</strong></span>.
 - Each story is represented as a card on a <span title="Visual board that tracks work items through workflow stages."><strong>Kanban board</strong></span>, moving through defined stages (e.g., **Backlog → To Do → In Progress → Done**).  
 
-- Kanban helps identify bottlenecks by limiting the number of tasks in each stage,also known as <span title="Maximum number of tasks allowed in a workflow stage."><strong>Work In Progress (WIP) limits</strong></span>.  
+- Kanban helps identify bottlenecks by limiting the number of tasks in each stage, also known as <span title="Maximum number of tasks allowed in a workflow stage."><strong>Work In Progress (WIP) limits</strong></span>.  
   
 ## What are User Stories?
 

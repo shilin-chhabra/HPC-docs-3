@@ -51,7 +51,7 @@ A successful login message confirms access and enables you to push/pull from pri
 
 ## Pulling Images from Harbor
 
-!!! info
+!!! note
     For private projects, make sure you're logged in to Harbor before pulling the image. Public project images can be pulled without authentication.
 
 An image is pulled from Harbor using the `docker pull` command and specified to pull it from the Harbor URL.

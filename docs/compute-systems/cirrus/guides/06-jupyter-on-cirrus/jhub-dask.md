@@ -2,7 +2,7 @@
 
 [Dask](https://www.dask.org/) is a flexible parallel computing library for Python that helps scale common scientific libraries like NumPy, Pandas, and Xarray. It offers a smooth path to parallel processing without requiring a full rewrite of existing code.
 
-At its core, Dask consists of three key components:
+Dask works by splitting your job into many small tasks that can run in parallel. At its core it relies on three key components:
 
 - **Client** - the interface through which your code interacts with Dask
 - **Scheduler** - coordinates the execution of tasks  

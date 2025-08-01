@@ -16,6 +16,8 @@ CIRRUS hosts a JupyterHub instance on Kubernetes (K8s).
 
 ## Overview
 
+CIRRUS JupyterHub is a multi-user environment where scientists can run notebooks close to their data and GPUs without worrying about infrastructure. It runs atop the same Kubernetes cluster that powers other CIRRUS services, so the experience mirrors production as closely as possible.
+
 ## Access
 
 The CIRRUS JupyterHub is only accessible from within the **NCAR internal network**, either onsite or via VPN. Once connected, the [JupyterHub login page](https://jupyter.k8s.ucar.edu/) provides access to your personal and persistent Jupyter environment.
@@ -40,7 +42,7 @@ Available environments include:
 
 For more information on using Binder, see [binder](binderhub.md).
 
-<img src="../../../media/jupyter/server-opts.png"/>
+<img src="../../../media/jupyter/server-opts.png" width="80%" class="center" alt="JupyterHub server options"/>
 
 The NSF NCAR images available in JupyterHub are built and maintained by the **CCPP team**.  
 If you encounter any issues, please [report them here](https://jira.ucar.edu/secure/CreateIssueDetails!init.jspa?pid=18470&issuetype=10905).
