@@ -11,28 +11,44 @@ short_title: CIRRUS Overview
 
 ---
 
-<div style="text-align:center" markdown="1">
+<div markdown="1" style="max-width: 800px;">
 
 ## Getting Started Workflows
 
 Choose your path based on your needs and experience level:
 
-| **Basic Users** | **Advanced Users** |
-|-----------------|-------------------|
-| **1. Learn the Basics** | **1. Review Architecture** |
-| Start with [CIRRUS Overview](#platform-overview) | Understand [Platform Overview](#platform-overview) and [Core Services](#core-services) |
-| **2. Understand Team Process** | **2. Plan Your Deployment** |
-| Review [Team Interaction](../02-interact-with-cirrus-team/agile.md) and [Creating Tickets](../02-interact-with-cirrus-team/create-tickets.md) | Study [Adding Applications](../03-deploying-applications/additions.md) and [Container Registry](../04-container-registry/index.md) |
-| **3. Explore Services** | **3. Set Up CI/CD** |
-| Try [JupyterHub](../06-jupyter-on-cirrus/jupyterhub.md) for interactive computing | Configure [GitHub Actions](../05-github-actions/scale-sets.md) and [Secrets Management](../07-secret-manager/openbao.md) |
-| **4. Request Access** | **4. Deploy Applications** |
-| Submit a [service request](../02-interact-with-cirrus-team/create-tickets.md) | Use [GitOps workflow](#gitops-deployment) with Helm charts |
+<table markdown="1" style="border:1px solid #666; border-collapse:collapse; margin:0 auto; border-radius:6px; overflow:hidden; font-size:0.9rem;">
+  <thead>
+    <tr>
+      <th style="padding:8px 16px; text-align:center; background-color:#2e5eaa; color:#fff;">Basic Users</th>
+      <th style="padding:8px 16px; text-align:center; background-color:#2e5eaa; color:#fff;">Advanced Users</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:6px 12px; border:1px solid #ccc;"><strong>1. Learn the Basics</strong><br/>Start with <a href="#platform-overview">CIRRUS Overview</a></td>
+      <td style="padding:6px 12px; border:1px solid #ccc;"><strong>1. Review Architecture</strong><br/>Understand <a href="#platform-overview">Platform Overview</a> and <a href="#core-services">Core Services</a></td>
+    </tr>
+    <tr>
+      <td style="padding:6px 12px; border:1px solid #ccc;"><strong>2. Understand Team Process</strong><br/>Review <a href="../02-interact-with-cirrus-team/agile.md">Team Interaction</a> and <a href="../02-interact-with-cirrus-team/create-tickets.md">Creating Tickets</a></td>
+      <td style="padding:6px 12px; border:1px solid #ccc;"><strong>2. Plan Your Deployment</strong><br/>Study <a href="../03-deploying-applications/additions.md">Adding Applications</a> and <a href="../04-container-registry/index.md">Container Registry</a></td>
+    </tr>
+    <tr>
+      <td style="padding:6px 12px; border:1px solid #ccc;"><strong>3. Explore Services</strong><br/>Try <a href="../06-jupyter-on-cirrus/jupyterhub.md">JupyterHub</a> for interactive computing</td>
+      <td style="padding:6px 12px; border:1px solid #ccc;"><strong>3. Set Up CI/CD</strong><br/>Configure <a href="../05-github-actions/scale-sets.md">GitHub Actions</a> and <a href="../07-secret-manager/openbao.md">Secrets Management</a></td>
+    </tr>
+    <tr>
+      <td style="padding:6px 12px; border:1px solid #ccc;"><strong>4. Request Access</strong><br/>Submit a <a href="../02-interact-with-cirrus-team/create-tickets.md">service request</a></td>
+      <td style="padding:6px 12px; border:1px solid #ccc;"><strong>4. Deploy Applications</strong><br/>Use <a href="#gitops-deployment">GitOps workflow</a> with Helm charts</td>
+    </tr>
+  </tbody>
+</table>
 
 </div>
 
 ---
 
-<div style="text-align:center" markdown="1">
+<div markdown="1">
 
 ## Documentation Guide
 
