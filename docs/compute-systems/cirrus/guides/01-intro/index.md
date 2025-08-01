@@ -11,6 +11,8 @@ short_title: CIRRUS Overview
 
 ---
 
+<div style="text-align:center">
+
 ## Getting Started Workflows
 
 Choose your path based on your needs and experience level:
@@ -26,7 +28,11 @@ Choose your path based on your needs and experience level:
 | **4. Request Access** | **4. Deploy Applications** |
 | Submit a [service request](../02-interact-with-cirrus-team/create-tickets.md) | Use [GitOps workflow](#gitops-deployment) with Helm charts |
 
+</div>
+
 ---
+
+<div style="text-align:center">
 
 ## Documentation Guide
 
@@ -83,6 +89,8 @@ Understand our service commitments and support levels.
 Troubleshooting guide for common problems and solutions.
 
 - **[troubleshooting guide](../09-frequent-issues/index.md)** - Common problems and solutions. Use when encountering issues or errors.
+
+</div>
 
 ---
 
