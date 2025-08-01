@@ -100,10 +100,10 @@ With a complete container assembly document, in this example a Dockerfile, it's 
 The command used for building a docker image is:
 
 ```bash
-docker build -t ncote/docker-how-to:v1 .
+docker buildx build -t ncote/docker-how-to:v1 .
 ```
 
-- `docker build` triggers the image build.
+- `docker buildx build` triggers the image build.
 - `-t ncote/docker-how-to:v1` names and tags the image.
   - `ncote/` is the Docker Hub namespace (your username).
   - `docker-how-to` is the image name.

@@ -1,6 +1,6 @@
 # Agile Methodology in CIRRUS
 
-The CIRRUS team follows a **hybrid Agile Project Management** approach that combines elements of **Kanban** and <span title="Waterfall: Sequential project management methodology with distinct phases."><strong>Waterfall</strong></span>. This strategy helps to manage day-to-day work flexibly while tracking long-term progress and deliverables effectively.
+The CIRRUS team follows a **hybrid Agile Project Management** approach that combines elements of **Kanban** and Waterfall{title="Sequential project management methodology with distinct phases."}. This strategy helps to manage day-to-day work flexibly while tracking long-term progress and deliverables effectively.
 
 ## What is Agile Project Management?
 
@@ -18,7 +18,7 @@ Waterfall is a traditional, linear project management approach that breaks a pro
 
 **[TODO: Add diagram here – requirements → design → implementation → testing → deployment]**
 
-CIRRUS uses Waterfall to manage overall project status and track milestones and deliverables using <span title="Smartsheet: Cloud-based work management and collaboration platform."><strong>Smartsheet</strong></span>.  
+CIRRUS uses Waterfall to manage overall project status and track milestones and deliverables using Smartsheet{title="Cloud-based work-management and collaboration platform."}.  
 
 It helps with planning and high-level visibility, especially for reporting progress to stakeholders.
 
@@ -26,17 +26,17 @@ It helps with planning and high-level visibility, especially for reporting progr
 
 Kanban is a flexible Agile framework focused on **continuous delivery** and **visual management**.
 
-- Work is broken down into small, trackable units called <span title="User Story: Short, simple description of a feature from the end-user perspective."><strong>User Stories</strong></span>.
-- Each story is represented as a card on a <span title="Kanban board: Visual board that tracks work items through stages."><strong>Kanban board</strong></span>, moving through defined stages (e.g., **Backlog → To Do → In Progress → Done**).  
+- Work is broken down into small, trackable units called User Stories{title="Short, simple description of a feature from the end-user perspective."}.
+- Each story is represented as a card on a Kanban board{title="Visual board that tracks work items through workflow stages."}, moving through defined stages (e.g., **Backlog → To Do → In Progress → Done**).  
 
-- Kanban helps identify bottlenecks by limiting the number of tasks in each stage—also known as <span title="Work In Progress (WIP) limit: Maximum number of tasks allowed in a workflow stage."><strong>Work In Progress (WIP) limits</strong></span>.  
+- Kanban helps identify bottlenecks by limiting the number of tasks in each stage—also known as Work In Progress (WIP) limits{title="Maximum number of tasks allowed in a workflow stage."}.  
   
 ## What are User Stories?
 
 **User Stories** describe a feature or task from the end user's perspective. They are:
 
 - **Short and focused** – designed to be completed in a few days
-- **Testable** – with clearly defined **Acceptance Criteria**  
+- **Testable** – with clearly defined Acceptance Criteria{title="Testable conditions that must be met for a story to be complete."}  
   - **Iterative** – if a story is too large, it’s broken into smaller, more manageable pieces
 
 Example User Story:
