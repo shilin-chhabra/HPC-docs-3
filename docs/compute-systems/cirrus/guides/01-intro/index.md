@@ -32,32 +32,52 @@ Choose your path based on your needs and experience level:
 
 This documentation is organized into focused sections to help you find what you need:
 
-| Section | What You'll Find | When to Use |
-|---------|------------------|-------------|
-| **[Introduction](index.md)** | Platform overview, services, and hardware specs | Start here to understand CIRRUS capabilities |
-| **[Interact with CIRRUS Team](../02-interact-with-cirrus-team/)** | | |
-| └ [Agile Methodology](../02-interact-with-cirrus-team/agile.md) | How the team works and manages requests | Understand our development process |
-| └ [Create Tickets](../02-interact-with-cirrus-team/create-tickets.md) | How to submit requests and report issues | Need help or want to request services |
-| **[Deploying Applications](../03-deploying-applications/)** | | |
-| └ [Creating Containers](../03-deploying-applications/containerize.md) | Step-by-step containerization guide | New to containers or Docker |
-| └ [Adding Applications](../03-deploying-applications/additions.md) | GitOps deployment with Helm charts | Ready to deploy your application |
-| **[Container Registry](../04-container-registry/)** | | |
-| └ [Harbor Overview](../04-container-registry/index.md) | Container registry introduction | Store and manage container images |
-| └ [Image Management](../04-container-registry/image-mgmt.md) | Push/pull images, CLI usage | Work with container images |
-| └ [Vulnerability Scanner](../04-container-registry/vulnerability-scan.md) | Security scanning for images | Ensure image security |
-| **[GitHub Actions](../05-github-actions/)** | | |
-| └ [Runner Scale Sets](../05-github-actions/scale-sets.md) | Automated CI/CD setup | Automate builds and deployments |
-| └ [Best Practices](../05-github-actions/best-practices.md) | Security and operational guidelines | Secure your CI/CD pipelines |
-| **[Jupyter on CIRRUS](../06-jupyter-on-cirrus/)** | | |
-| └ [JupyterHub](../06-jupyter-on-cirrus/jupyterhub.md) | Interactive computing environment | Data analysis and research |
-| └ [Conda Environments](../06-jupyter-on-cirrus/conda-envs.md) | Custom Python environments | Manage dependencies |
-| └ [GPU Usage](../06-jupyter-on-cirrus/jhub-gpu.md) | GPU computing with PyTorch/TensorFlow | Machine learning and AI workloads |
-| └ [Dask Integration](../06-jupyter-on-cirrus/jhub-dask.md) | Distributed computing | Scale computations across nodes |
-| └ [Binder](../06-jupyter-on-cirrus/binderhub.md) | Reproducible research environments | Share interactive notebooks |
-| **[Secret Manager](../07-secret-manager/)** | | |
-| └ [OpenBao](../07-secret-manager/openbao.md) | Secure credential storage | Manage API keys and secrets |
-| **[Service Level Agreements](../08-service-level-agreements/)** | | |
-| └ [SLAs](../08-service-level-agreements/slas.md) | Support levels and response times | Understand service commitments |
+### **[Introduction](index.md)**
+Platform overview, services, and hardware specs. Start here to understand CIRRUS capabilities.
+
+### **[Interact with CIRRUS Team](../02-interact-with-cirrus-team/)**
+Learn how to work with the CIRRUS team and get support.
+
+- **[Agile Methodology](../02-interact-with-cirrus-team/agile.md)** - How the team works and manages requests. Use this to understand our development process.
+- **[Create Tickets](../02-interact-with-cirrus-team/create-tickets.md)** - How to submit requests and report issues. Use when you need help or want to request services.
+
+### **[Deploying Applications](../03-deploying-applications/)**
+Everything you need to containerize and deploy applications on CIRRUS.
+
+- **[Creating Containers](../03-deploying-applications/containerize.md)** - Step-by-step containerization guide. Perfect if you're new to containers or Docker.
+- **[Adding Applications](../03-deploying-applications/additions.md)** - GitOps deployment with Helm charts. Use when you're ready to deploy your application.
+
+### **[Container Registry](../04-container-registry/)**
+Store, manage, and secure your container images with Harbor.
+
+- **[Harbor Overview](../04-container-registry/index.md)** - Container registry introduction. Use to understand how to store and manage container images.
+- **[Image Management](../04-container-registry/image-mgmt.md)** - Push/pull images, CLI usage. Use when you need to work with container images.
+- **[Vulnerability Scanner](../04-container-registry/vulnerability-scan.md)** - Security scanning for images. Use to ensure image security.
+
+### **[GitHub Actions](../05-github-actions/)**
+Automate your CI/CD workflows with GitHub Actions on CIRRUS.
+
+- **[Runner Scale Sets](../05-github-actions/scale-sets.md)** - Automated CI/CD setup. Use to automate builds and deployments.
+- **[Best Practices](../05-github-actions/best-practices.md)** - Security and operational guidelines. Use to secure your CI/CD pipelines.
+
+### **[Jupyter on CIRRUS](../06-jupyter-on-cirrus/)**
+Interactive computing, data analysis, and research environments.
+
+- **[JupyterHub](../06-jupyter-on-cirrus/jupyterhub.md)** - Interactive computing environment. Use for data analysis and research.
+- **[Conda Environments](../06-jupyter-on-cirrus/conda-envs.md)** - Custom Python environments. Use to manage dependencies.
+- **[GPU Usage](../06-jupyter-on-cirrus/jhub-gpu.md)** - GPU computing with PyTorch/TensorFlow. Use for machine learning and AI workloads.
+- **[Dask Integration](../06-jupyter-on-cirrus/jhub-dask.md)** - Distributed computing. Use to scale computations across nodes.
+- **[Binder](../06-jupyter-on-cirrus/binderhub.md)** - Reproducible research environments. Use to share interactive notebooks.
+
+### **[Secret Manager](../07-secret-manager/)**
+Securely store and manage sensitive data like API keys and credentials.
+
+- **[OpenBao](../07-secret-manager/openbao.md)** - Secure credential storage. Use to manage API keys and secrets.
+
+### **[Service Level Agreements](../08-service-level-agreements/)**
+Understand our service commitments and support levels.
+
+- **[SLAs](../08-service-level-agreements/slas.md)** - Support levels and response times. Use to understand service commitments.
 
 ---
 
