@@ -1,6 +1,6 @@
 # Create Tickets in Jira
 
-The CIRRUS team uses **Jira** to track and manage all requests, issues, and service deployments. Tickets created in Jira follow the team’s [Kanban workflow](agile.md#kanban-board), ensuring visibility and accountability throughout the lifecycle of your request.
+The CIRRUS team uses **Jira** to track and manage all requests, issues, and service deployments. Tickets created in Jira follow the team’s <span title="Kanban: Agile framework that visualizes work on a board and limits WIP.">Kanban</span> workflow, ensuring visibility and accountability throughout the lifecycle of your request.
 
 ---
 
@@ -32,7 +32,7 @@ If you need a new service or want to deploy a new application, use the **New Req
 | **Assignee** | Leave at **Automatic**; the Product Owner (PO) will re-assign as needed.                                                |
 | **Epic Link** | Defaults to **User Requests**—leave unchanged.                                                                         |
 
-After clicking **Create**, you’ll be taken to the *Issues* page where your ticket appears in the backlog. A confirmation email (also sent to the [Product Owner](agile.md#via-the-agile-product-owner-po)) will include a link to the ticket and the details you submitted.
+After clicking **Create**, you’ll be taken to the *Issues* page where your ticket appears in the backlog. A confirmation email (also sent to the <span title="Product Owner: Role responsible for maximizing product value and prioritizing the backlog.">Product Owner</span>) will include a link to the ticket and the details you submitted.
 
 ---
 
@@ -67,4 +67,4 @@ Click **Create** to submit your issue. You’ll be redirected to the *Issues* pa
 
 ---
 
-**[TODO: Add hover-tooltip definitions for Kanban, Product Owner, etc. if desired]**
+

@@ -10,7 +10,7 @@ If a GitHub repository contains Jupyter Notebooks along with configuration files
 The documentation below covers the Binder instance hosted on **CIRRUS**, NCAR's on-prem cloud platform.
 
 For additional background or advanced functionality, refer to the official **[Binder documentation](https://mybinder.readthedocs.io/en/latest/index.html)**.  
-**[TODO: Double check that it matches with Google developer format]**
+
 
 ---
 

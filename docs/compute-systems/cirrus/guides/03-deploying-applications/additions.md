@@ -111,7 +111,7 @@ When automatically making changes to an application, it's always best practice t
 We recommend creating a **test branch** of your repository, along with:
 
 - A separate Helm chart folder (e.g., `app-helm-test`)
-- A unique test **[TODO: Add link to earlier FQDN section]** (e.g., `test-app.k8s.ucar.edu`)
+- A unique test FQDN (see [FQDN rule](#unique-helm-values)) (e.g., `test-app.k8s.ucar.edu`)
 
 Configure Argo CD to track both the test and main branches. This allows you to validate updates in staging before merging into your main branch for production deployment.
 

@@ -18,7 +18,7 @@ Waterfall is a traditional, linear project management approach that breaks a pro
 
 **[TODO: Add diagram here – requirements → design → implementation → testing → deployment]**
 
-CIRRUS uses Waterfall to manage overall project status and track milestones and deliverables using **Smartsheet**.  
+CIRRUS uses Waterfall to manage overall project status and track milestones and deliverables using <span title="Smartsheet: Cloud-based work management and collaboration platform."><strong>Smartsheet</strong></span>.  
 **[TODO: Add definition of Smartsheet (hover tooltip) and maybe an example]**
 
 It helps with planning and high-level visibility, especially for reporting progress to stakeholders.
@@ -31,7 +31,7 @@ Kanban is a flexible Agile framework focused on **continuous delivery** and **vi
   **[TODO: Provide hover tooltip definition]**
 - Each story is represented as a card on a **Kanban board**, moving through defined stages (e.g., **Backlog → To Do → In Progress → Done**).  
   **[TODO: Add diagram of Kanban board stages]**
-- Kanban helps identify bottlenecks by limiting the number of tasks in each stage—also known as **Work In Progress (WIP) limits**.  
+- Kanban helps identify bottlenecks by limiting the number of tasks in each stage—also known as <span title="Work In Progress (WIP) limit: Maximum number of tasks allowed in a workflow stage."><strong>Work In Progress (WIP) limits</strong></span>.  
   **[TODO: Provide hover tooltip definition]**
 
 ## What are User Stories?

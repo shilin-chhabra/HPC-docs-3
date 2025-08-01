@@ -15,7 +15,7 @@ The example below walks through creating a Conda environment from a GitHub repos
 
 After cloning it into your JupyterHub instance, you can create the environment it uses.
 
-**[TODO: Highlight this example repository reference]**  
+  
 *In that repository, the environment file is named: `conda_environment.yml`*
 
 ### Steps:
