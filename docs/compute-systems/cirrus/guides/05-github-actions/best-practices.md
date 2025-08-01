@@ -80,7 +80,7 @@ Review/Audit each job to ensure it:
 
 Prebuilt third-party GitHub Actions can be compromised as well. New Actions versions are built in to existing tags. Something marked as `v3`, for example, could receive a compromised patch and anything in an Action workflow using that `v3` tag would be now running a compromised Action. Instead of using the simple tag a SHA tag can be used instead to pin workflows to Actions versions that are known to be secure.
 
-**Avoid using floating tags** like `@v3` for third-party Actions. Tags can be silently updated, including with malicious changes. *(Example: `uses: actions/checkout@3f4a7b8ff0e3dfad5ebb…` — pin to a specific commit SHA for immutability.)*
+**Avoid using floating tags** like `@v3` for third-party Actions. Tags can be silently updated, including with malicious changes. *(Example: `uses: actions/checkout@3f4a7b8ff0e3dfad5ebb…` , pin to a specific commit SHA for immutability.)*
 
 ---
 

@@ -1,6 +1,6 @@
 # Create Tickets in Jira
 
-The CIRRUS team uses **Jira** to track and manage all requests, issues, and service deployments. Tickets created in Jira follow the team’s <span title="Kanban: Agile framework that visualizes work on a board and limits WIP.">Kanban</span> workflow, ensuring visibility and accountability throughout the lifecycle of your request.
+The CIRRUS team uses **Jira** to track and manage all requests, issues, and service deployments. Tickets created in Jira follow the team’s <span title="Kanban: Agile framework that visualizes work on a board and limits WIP."><strong>Kanban</strong></span> workflow, ensuring visibility and accountability throughout the lifecycle of your request.
 
 ---
 
@@ -26,13 +26,13 @@ If you need a new service or want to deploy a new application, use the **New Req
 | Field        | Definition                                                                                                              |
 |--------------|-------------------------------------------------------------------------------------------------------------------------|
 | **Summary**  | Short description of your request.                                                                                      |
-| **Reporter** | Not filled automatically—search for and select your name.                                                               |
+| **Reporter** | Not filled automatically,search for and select your name.                                                               |
 | **Description** | Details of your request, including any relevant information, context, or error messages.                             |
 | **Attachment**  | Upload supporting images or log files (instead of pasting long logs in *Description*).                                |
 | **Assignee** | Leave at **Automatic**; the Product Owner (PO) will re-assign as needed.                                                |
-| **Epic Link** | Defaults to **User Requests**—leave unchanged.                                                                         |
+| **Epic Link** | Defaults to **User Requests**,leave unchanged.                                                                         |
 
-After clicking **Create**, you’ll be taken to the *Issues* page where your ticket appears in the backlog. A confirmation email (also sent to the <span title="Product Owner: Role responsible for maximizing product value and prioritizing the backlog.">Product Owner</span>) will include a link to the ticket and the details you submitted.
+After clicking **Create**, you’ll be taken to the *Issues* page where your ticket appears in the backlog. A confirmation email (also sent to the <span title="Product Owner: Role responsible for maximizing product value and prioritizing the backlog."><strong>Product Owner</strong></span>) will include a link to the ticket and the details you submitted.
 
 ---
 
@@ -49,7 +49,7 @@ Use the **Report Issue** form to log bugs or incidents:
 | Field        | Definition                                                                                                              |
 |--------------|-------------------------------------------------------------------------------------------------------------------------|
 | **Summary**  | Short description of the issue.                                                                                         |
-| **Reporter** | Not filled automatically—search for and select your name.                                                               |
+| **Reporter** | Not filled automatically,search for and select your name.                                                               |
 | **Description** | Detailed explanation of the problem, steps to reproduce, and any error messages.                                     |
 | **Attachment**  | Upload screenshots or log files (instead of pasting long logs in *Description*).                                      |
 
@@ -63,7 +63,7 @@ Click **Create** to submit your issue. You’ll be redirected to the *Issues* pa
 2. The **Product Owner** reviews, assigns, and prioritizes it.  
 3. You receive updates via Jira and email as the ticket progresses through the workflow.
 
-**Tip:** Keep your ticket clear and focused—concise detail helps the team respond faster and more accurately.
+**Tip:** Keep your ticket clear and focused,concise detail helps the team respond faster and more accurately.
 
 ---
 
