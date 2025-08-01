@@ -11,17 +11,17 @@ short_title: CIRRUS Overview
 
 ---
 
-<div markdown="1" style="max-width: 800px;">
+<div markdown="1" style="max-width: 800px; margin-left:0;">
 
 ## Getting Started Workflows
 
 Choose your path based on your needs and experience level:
 
-<table markdown="1" style="border:1px solid #666; border-collapse:collapse; margin:0 auto; border-radius:6px; overflow:hidden; font-size:0.9rem;">
+<table markdown="1" style="border:1px solid #666; border-collapse:collapse; margin:0 0 0 0; border-radius:6px; overflow:hidden; font-size:0.9rem;">
   <thead>
     <tr>
-      <th style="padding:8px 16px; text-align:center; background-color:#2e5eaa; color:#fff;">Basic Uses</th>
-      <th style="padding:8px 16px; text-align:center; background-color:#2e5eaa; color:#fff;">Advanced Uses</th>
+      <th style="padding:10px 20px; text-align:center; background-color:#2e5eaa; color:#fff; font-size:1.05rem;">Basic Uses</th>
+      <th style="padding:10px 20px; text-align:center; background-color:#2e5eaa; color:#fff; font-size:1.05rem;">Advanced Uses</th>
     </tr>
   </thead>
   <tbody>
