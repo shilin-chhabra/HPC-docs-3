@@ -72,7 +72,7 @@ The CIRRUS Kanban board currently implements the following story states:
 | In Review   | PO will check to make sure the Story Acceptance Criteria is met                |
 | Done        | Acceptance Criteria has been verified successfully and the Story is complete   |
 
-**[TODO: Add screenshot from the actual board for clarity]**
+![CIRRUS Kanban Board](../../media/jira/board.png "CIRRUS Kanban Board")
 
 User Stories are self-assigned by a team member who wants to accomplish the task. A User Story will move from **To Do → In Progress** when it is at the top of the assignee's **To Do** list and they are ready to start. Kanban utilizes WIP limits to help identify bottlenecks and promote moving tasks to **Done**. The CIRRUS project has implemented the following WIP limits:
 
@@ -82,7 +82,7 @@ User Stories are self-assigned by a team member who wants to accomplish the task
 | In Progress  | 6     |
 | In Review    | 4     |
 
-**[TODO: Add screenshot here to show the WIP limits]**
+![Kanban WIP Limits](../../media/jira/WIP-limit.png "Kanban WIP Limits")
 
 ## Demonstrations
 

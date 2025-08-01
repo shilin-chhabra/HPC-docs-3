@@ -26,20 +26,20 @@ Choose your path based on your needs and experience level:
   </thead>
   <tbody>
     <tr>
-      <td style="padding:6px 12px; border:1px solid #ccc;"><strong>1. Learn the Basics</strong><br/>Start with <a href="#platform-overview">CIRRUS Overview</a></td>
-      <td style="padding:6px 12px; border:1px solid #ccc;"><strong>1. Review Architecture</strong><br/>Understand <a href="#platform-overview">Platform Overview</a> and <a href="#core-services">Core Services</a></td>
+      <td style="padding:6px 12px; border:1px solid #ccc; white-space:nowrap;"><strong>1. Learn the Basics</strong><br/>Start with <a href="#platform-overview">CIRRUS Overview</a></td>
+      <td style="padding:6px 12px; border:1px solid #ccc; white-space:nowrap;"><strong>1. Review Architecture</strong><br/>Understand <a href="#platform-overview">Platform Overview</a> and <a href="#core-services">Core Services</a></td>
     </tr>
     <tr>
-      <td style="padding:6px 12px; border:1px solid #ccc;"><strong>2. Understand Team Process</strong><br/>Review <a href="../02-interact-with-cirrus-team/agile.md">Team Interaction</a> and <a href="../02-interact-with-cirrus-team/create-tickets.md">Creating Tickets</a></td>
-      <td style="padding:6px 12px; border:1px solid #ccc;"><strong>2. Plan Your Deployment</strong><br/>Study <a href="../03-deploying-applications/additions.md">Adding Applications</a> and <a href="../04-container-registry/index.md">Container Registry</a></td>
+      <td style="padding:6px 12px; border:1px solid #ccc; white-space:nowrap;"><strong>2. Understand Team Process</strong><br/>Review <a href="../02-interact-with-cirrus-team/agile.md">Team Interaction</a> and <a href="../02-interact-with-cirrus-team/create-tickets.md">Creating Tickets</a></td>
+      <td style="padding:6px 12px; border:1px solid #ccc; white-space:nowrap;"><strong>2. Plan Your Deployment</strong><br/>Study <a href="../03-deploying-applications/additions.md">Adding Applications</a> and <a href="../04-container-registry/index.md">Container Registry</a></td>
     </tr>
     <tr>
-      <td style="padding:6px 12px; border:1px solid #ccc;"><strong>3. Explore Services</strong><br/>Try <a href="../06-jupyter-on-cirrus/jupyterhub.md">JupyterHub</a> for interactive computing</td>
-      <td style="padding:6px 12px; border:1px solid #ccc;"><strong>3. Set Up CI/CD</strong><br/>Configure <a href="../05-github-actions/scale-sets.md">GitHub Actions</a> and <a href="../07-secret-manager/openbao.md">Secrets Management</a></td>
+      <td style="padding:6px 12px; border:1px solid #ccc; white-space:nowrap;"><strong>3. Explore Services</strong><br/>Try <a href="../06-jupyter-on-cirrus/jupyterhub.md">JupyterHub</a> for interactive computing</td>
+      <td style="padding:6px 12px; border:1px solid #ccc; white-space:nowrap;"><strong>3. Set Up CI/CD</strong><br/>Configure <a href="../05-github-actions/scale-sets.md">GitHub Actions</a> and <a href="../07-secret-manager/openbao.md">Secrets Management</a></td>
     </tr>
     <tr>
-      <td style="padding:6px 12px; border:1px solid #ccc;"><strong>4. Request Access</strong><br/>Submit a <a href="../02-interact-with-cirrus-team/create-tickets.md">service request</a></td>
-      <td style="padding:6px 12px; border:1px solid #ccc;"><strong>4. Deploy Applications</strong><br/>Use <a href="#gitops-deployment">GitOps workflow</a> with Helm charts</td>
+      <td style="padding:6px 12px; border:1px solid #ccc; white-space:nowrap;"><strong>4. Request Access</strong><br/>Submit a <a href="../02-interact-with-cirrus-team/create-tickets.md">service request</a></td>
+      <td style="padding:6px 12px; border:1px solid #ccc; white-space:nowrap;"><strong>4. Deploy Applications</strong><br/>Use <a href="#gitops-deployment">GitOps workflow</a> with Helm charts</td>
     </tr>
   </tbody>
 </table>
@@ -60,51 +60,51 @@ Platform overview, services, and hardware specs. Start here to understand CIRRUS
 ### **[Interact with CIRRUS Team](../02-interact-with-cirrus-team/)**
 Learn how to work with the CIRRUS team and get support.
 
-- **[agile methodology](../02-interact-with-cirrus-team/agile.md)** - How the team works and manages requests. Use this to understand our development process.
-- **[create tickets](../02-interact-with-cirrus-team/create-tickets.md)** - How to submit requests and report issues. Use when you need help or want to request services.
+- **[agile methodology](../02-interact-with-cirrus-team/agile.md)**<br/>How the team works and manages requests. Use this to understand our development process.
+- **[create tickets](../02-interact-with-cirrus-team/create-tickets.md)**<br/>How to submit requests and report issues. Use when you need help or want to request services.
 
 ### **[Deploying Applications](../03-deploying-applications/)**
 Everything you need to containerize and deploy applications on CIRRUS.
 
-- **[create containers](../03-deploying-applications/containerize.md)** - Step-by-step containerization guide. Perfect if you're new to containers or Docker.
-- **[adding applications](../03-deploying-applications/additions.md)** - GitOps deployment with Helm charts. Use when you're ready to deploy your application.
+- **[create containers](../03-deploying-applications/containerize.md)**<br/>Step-by-step containerization guide. Perfect if you're new to containers or Docker.
+- **[adding applications](../03-deploying-applications/additions.md)**<br/>GitOps deployment with Helm charts. Use when you're ready to deploy your application.
 
 ### **[Container Registry](../04-container-registry/)**
 Store, manage, and secure your container images with Harbor.
 
-- **[harbor overview](../04-container-registry/index.md)** - Container registry introduction. Use to understand how to store and manage container images.
-- **[image management](../04-container-registry/image-mgmt.md)** - Push/pull images, CLI usage. Use when you need to work with container images.
-- **[vulnerability scanner](../04-container-registry/vulnerability-scan.md)** - Security scanning for images. Use to ensure image security.
+- **[harbor overview](../04-container-registry/index.md)**<br/>Container registry introduction. Use to understand how to store and manage container images.
+- **[image management](../04-container-registry/image-mgmt.md)**<br/>Push/pull images, CLI usage. Use when you need to work with container images.
+- **[vulnerability scanner](../04-container-registry/vulnerability-scan.md)**<br/>Security scanning for images. Use to ensure image security.
 
 ### **[GitHub Actions](../05-github-actions/)**
 Automate your CI/CD workflows with GitHub Actions on CIRRUS.
 
-- **[runner scale sets](../05-github-actions/scale-sets.md)** - Automated CI/CD setup. Use to automate builds and deployments.
-- **[best practices](../05-github-actions/best-practices.md)** - Security and operational guidelines. Use to secure your CI/CD pipelines.
+- **[runner scale sets](../05-github-actions/scale-sets.md)**<br/>Automated CI/CD setup. Use to automate builds and deployments.
+- **[best practices](../05-github-actions/best-practices.md)**<br/>Security and operational guidelines. Use to secure your CI/CD pipelines.
 
 ### **[Jupyter on CIRRUS](../06-jupyter-on-cirrus/)**
 Interactive computing, data analysis, and research environments.
 
-- **[jupyterhub](../06-jupyter-on-cirrus/jupyterhub.md)** - Interactive computing environment. Use for data analysis and research.
-- **[conda environments](../06-jupyter-on-cirrus/conda-envs.md)** - Custom Python environments. Use to manage dependencies.
-- **[gpu usage](../06-jupyter-on-cirrus/jhub-gpu.md)** - GPU computing with PyTorch/TensorFlow. Use for machine learning and AI workloads.
-- **[dask integration](../06-jupyter-on-cirrus/jhub-dask.md)** - Distributed computing. Use to scale computations across nodes.
-- **[binder](../06-jupyter-on-cirrus/binderhub.md)** - Reproducible research environments. Use to share interactive notebooks.
+- **[jupyterhub](../06-jupyter-on-cirrus/jupyterhub.md)**<br/>Interactive computing environment. Use for data analysis and research.
+- **[conda environments](../06-jupyter-on-cirrus/conda-envs.md)**<br/>Custom Python environments. Use to manage dependencies.
+- **[gpu usage](../06-jupyter-on-cirrus/jhub-gpu.md)**<br/>GPU computing with PyTorch/TensorFlow. Use for machine learning and AI workloads.
+- **[dask integration](../06-jupyter-on-cirrus/jhub-dask.md)**<br/>Distributed computing. Use to scale computations across nodes.
+- **[binder](../06-jupyter-on-cirrus/binderhub.md)**<br/>Reproducible research environments. Use to share interactive notebooks.
 
 ### **[Secret Manager](../07-secret-manager/)**
 Securely store and manage sensitive data like API keys and credentials.
 
-- **[openbao](../07-secret-manager/openbao.md)** - Secure credential storage. Use to manage API keys and secrets.
+- **[openbao](../07-secret-manager/openbao.md)**<br/>Secure credential storage. Use to manage API keys and secrets.
 
 ### **[Service Level Agreements](../08-service-level-agreements/)**
 Understand our service commitments and support levels.
 
-- **[slas](../08-service-level-agreements/slas.md)** - Support levels and response times. Use to understand service commitments.
+- **[slas](../08-service-level-agreements/slas.md)**<br/>Support levels and response times. Use to understand service commitments.
 
 ### **[Frequent Issues](../09-frequent-issues/)**
 Troubleshooting guide for common problems and solutions.
 
-- **[troubleshooting guide](../09-frequent-issues/index.md)** - Common problems and solutions. Use when encountering issues or errors.
+- **[troubleshooting guide](../09-frequent-issues/index.md)**<br/>Common problems and solutions. Use when encountering issues or errors.
 
 </div>
 
@@ -125,7 +125,7 @@ This resilient, open-source foundation makes CIRRUS ideal for hosting research a
 
 ### Container Technology
 
-CIRRUS applications run in **containers** - lightweight, portable packages that include everything needed to run an application. Containers offer:
+CIRRUS applications run in **containers**<br/>lightweight, portable packages that include everything needed to run an application. Containers offer:
 
 - **Consistent environments** across development, testing, and production
 - **Faster deployment** with pre-built dependencies
