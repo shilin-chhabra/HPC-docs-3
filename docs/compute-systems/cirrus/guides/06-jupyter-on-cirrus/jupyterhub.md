@@ -10,7 +10,7 @@ CIRRUS JupyterHub</a>
 
 CIRRUS hosts a JupyterHub instance on Kubernetes (K8s).
 
-!!! note
+!!! important
     **A bug may occur when clicking icons in the Launcher tab to open new content.**  
     If you see the error message `n.map is not a function`, click any whitespace in the file browser panel on the left side. This will clear the error and allow the icons to function properly.
 

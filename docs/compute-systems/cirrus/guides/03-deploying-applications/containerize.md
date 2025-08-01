@@ -16,7 +16,7 @@ For most basic applications, you only need to:
 - Define your dependencies (usually via `requirements.txt`), and
 - Build the image
 
-!!! note
+!!! info
     The code used in this guide is available at **[docker-how-to repository](https://github.com/NicholasCote/docker-how-to.git)**.
 
 ---

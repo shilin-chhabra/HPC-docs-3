@@ -31,7 +31,7 @@ CIRRUS hosts a secrets management service called **OpenBao**, available to UCAR 
 
 9. Click **Save** to store your secret securely.
 
-!!! note
+!!! info
     You can store multiple key/value pairs under a single secret path.
 
 ---

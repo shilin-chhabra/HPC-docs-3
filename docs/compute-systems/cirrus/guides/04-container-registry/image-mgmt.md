@@ -12,7 +12,7 @@ To log in:
 
 This login flow uses your UCAR credentials via Microsoft Azure for secure access.
 
-!!! note
+!!! info
     To pull or push images, you'll need a container engine such as Docker, Podman, or Containerd. Docker is the most common choice. **[Install Docker Engine](https://docs.docker.com/engine/install/)** if you don't already have one.
 
 ---
@@ -51,7 +51,7 @@ A successful login message confirms access and enables you to push/pull from pri
 
 ## Pulling Images from Harbor
 
-!!! note
+!!! info
     For private projects, make sure you're logged in to Harbor before pulling the image. Public project images can be pulled without authentication.
 
 An image is pulled from Harbor using the `docker pull` command and specified to pull it from the Harbor URL.
@@ -105,7 +105,7 @@ docker push hub.k8s.ucar.edu/PROJECT/REPOSITORY[:TAG]
     
     For more information on how to use the scanner, please see [vulnerability scanner](vulnerability-scan.md).
 
-!!! note
+!!! info
     If your project is public, it can be pulled by anyone on the network. This makes it easy to share reproducible builds with collaborators.
 
 ---

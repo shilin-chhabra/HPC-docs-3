@@ -82,8 +82,8 @@ Each box can be dragged into your workspace and arranged as different tiles alon
 
 ## Dask-Jobqueue
 
-!!! note
-    `dask-jobqueue` is supported only on the HPC JupyterHub. Use `dask-gateway` for scalable clusters on NCAR's Kubernetes JupyterHub.
+!!! important
+    `dask-jobqueue` is supported **only** on the HPC JupyterHub. Use `dask-gateway` for scalable clusters on NCAR's Kubernetes JupyterHub.
 
 The Dask-Jobqueue package will only work on the HPC JupyterHub. Dask-Gateway is the correct solution for deploying scalable Dask clusters on the NCAR K8s JupyterHub.
 

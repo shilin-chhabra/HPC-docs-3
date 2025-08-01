@@ -1,6 +1,6 @@
 # CIRRUS Binder
 
-!!! note
+!!! info
     Access to the CIRRUS Binder service is controlled via UCAR CIT credentials. If you have a UCAR CIT account, you already have access to the K8s JupyterHub and Binder.
 
 **Binder** is a powerful tool that allows users to create custom computing environments directly from code repositories. It is commonly used to share reproducible Jupyter Notebooks that run exactly as intended, without requiring the end user to install packages or configure environments manually.
