@@ -11,7 +11,7 @@ short_title: CIRRUS Overview
 
 ---
 
-<div style="text-align:center">
+<div style="text-align:center" markdown="1">
 
 ## Getting Started Workflows
 
@@ -32,7 +32,7 @@ Choose your path based on your needs and experience level:
 
 ---
 
-<div style="text-align:center">
+<div style="text-align:center" markdown="1">
 
 ## Documentation Guide
 
